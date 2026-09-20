@@ -1,0 +1,11 @@
+# Security, harm and stewardship
+
+Local-first, browser-based storage may be accessible to anyone with access to the user's browser profile; this software does not encrypt local content. Downloads and imported materials are user-controlled. No telemetry, hidden background messaging, account requirement or automatic external research API is present.
+
+The base workspace, ecosystem modules, genomes and experiments are normalized through allowlisted validators and strict size limits. Imported modules are declarative JSON, not executable JavaScript. Module packs reject `script`, `code`, executable fields, cycles, missing dependencies, duplicate IDs and non-domain-compatible contracts. Genome packs reject invalid schemas, oversized files, duplicate IDs and orphan experiment references. User-controlled prose is displayed with HTML escaping or `textContent`. The compiler escapes child application content, guards ZIP paths and bounds archive size; ZIP CRC-32 detects accidental corruption, not malicious modification.
+
+A review checkbox cannot establish community consent or justify sharing personal, medical, geographic or Indigenous data. Shared genome packs remove machine IDs for linked projects and owner fields, but prose can still expose identity and sensitive details: manually inspect the payload. Optional child ZIP genomes and prompts have a **separate** specific inclusion checkbox. Experiment observations are never auto-included in child ZIP add-ons.
+
+The app does not turn module checkmarks into domain certification; it surfaces warnings for unreviewed project safeguards. Work involving electrical systems, food safety, emergency response, regulated institutions, minors or Indigenous governance must have appropriate oversight and rights-holder permission. The models report descriptive arithmetic only; do not use them to authorize real-world safety-critical decisions. Maintain rollback and opt-out procedures. No political persuasion or electoral recommendation is generated as a module function.
+
+Remaining security gaps: no penetration test, hardened origin-level CSP deployment, external dependency auditing (there are no runtime third-party dependencies), signature verification or trusted date attestation. Independent professional review is still required before public, high-risk adoption.

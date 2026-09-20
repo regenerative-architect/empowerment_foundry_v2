@@ -1,0 +1,895 @@
+{
+  "snapshot": "2026-09-20",
+  "sources": [
+    {
+      "id": "F01",
+      "domain": "food",
+      "year": 2025,
+      "org": "FAO / Committee on World Food Security",
+      "title": "Strengthening Urban and Peri-urban Food Systems: Policy Recommendations",
+      "url": "https://www.fao.org/cfs/policy-products/voluntary-guidelines-and-policy-recommendations/strengthening-urban-and-peri-urban-food-systems",
+      "take": "Food access, nutritious diets, local production, distribution, participation and urban–rural linkages must be planned together.",
+      "limit": "Guidance is not evidence that any individual garden raises household food security."
+    },
+    {
+      "id": "F02",
+      "domain": "food",
+      "year": 2025,
+      "org": "Huq & Deacon · Discover Sustainability",
+      "title": "Systematic review of community gardens and urban food security (37 studies)",
+      "url": "https://doi.org/10.1007/s43621-025-01628-5",
+      "take": "Community gardens show food-access and social benefits in the reviewed studies; inequitable access and implementation gaps remain.",
+      "limit": "Study heterogeneity, local selection and implementation constrain transfer."
+    },
+    {
+      "id": "F03",
+      "domain": "food",
+      "year": 2025,
+      "org": "Environmental Impact Assessment Review",
+      "title": "Environmental performance of urban agriculture in the Global South (272-study review)",
+      "url": "https://doi.org/10.1016/j.eiar.2025.108040",
+      "take": "Compare yield with water, energy, carbon, land and other life-cycle burdens across production types.",
+      "limit": "Reported ranges are not universal project coefficients. High yield can coincide with high energy demand."
+    },
+    {
+      "id": "F04",
+      "domain": "food",
+      "year": 2026,
+      "org": "Frontiers in Sustainable Food Systems",
+      "title": "Integrating vertical and urban farming into sustainable food systems",
+      "url": "https://doi.org/10.3389/fsufs.2026.1815862",
+      "take": "Infrastructure, energy, resource efficiency, economics and nutrition constrain urban/vertical farming decisions.",
+      "limit": "Narrative synthesis; site-specific energy mixes and costs can reverse an apparent benefit."
+    },
+    {
+      "id": "W01",
+      "domain": "resilience",
+      "year": 2026,
+      "org": "World Health Organization",
+      "title": "Household water treatment and safe storage",
+      "url": "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/water-safety-and-quality/household-water-treatment-and-safe-storage",
+      "take": "Validated treatment and safe storage matter together for microbiological drinking-water protection.",
+      "limit": "Not all filters remove viruses, chemical contaminants or dissolved hazards; technology and source must be verified."
+    },
+    {
+      "id": "W02",
+      "domain": "resilience",
+      "year": 2025,
+      "org": "International Energy Agency",
+      "title": "World Energy Outlook 2025: Achieving access for all",
+      "url": "https://www.iea.org/reports/world-energy-outlook-2025/achieving-access-for-all",
+      "take": "Grid extension, mini-grids and stand-alone systems serve different access contexts.",
+      "limit": "Global scenarios are not local technical designs or price quotations."
+    },
+    {
+      "id": "S01",
+      "domain": "skills",
+      "year": 2026,
+      "org": "International Labour Organization",
+      "title": "Lifelong learning and skills for the future",
+      "url": "https://www.ilo.org/publications/flagship-reports/lifelong-learning-and-skills-future",
+      "take": "Skills training works better when practical experience, rounded competencies, complementary support and recognized qualifications align.",
+      "limit": "Employer demand and credentials differ across regions; training does not guarantee jobs."
+    },
+    {
+      "id": "S02",
+      "domain": "skills",
+      "year": 2025,
+      "org": "ILO / UNICEF",
+      "title": "Microcredentials for youth and work",
+      "url": "https://www.ilo.org/publications/microcredentials-youth-and-work",
+      "take": "Microcredentials may document targeted competencies but require quality assurance, recognition and good governance.",
+      "limit": "Digital badges are not themselves accredited credentials."
+    },
+    {
+      "id": "S03",
+      "domain": "skills",
+      "year": 2025,
+      "org": "ILO",
+      "title": "Compendium of promising practices for jobs and skills for a green economy",
+      "url": "https://www.ilo.org/publications/compendium-promising-practices-promotion-jobs-and-skills-green-economy",
+      "take": "Case examples connect skills interventions with decent-work and inclusion criteria.",
+      "limit": "Individual cases do not prove equivalent results elsewhere."
+    },
+    {
+      "id": "E01",
+      "domain": "education",
+      "year": 2026,
+      "org": "UNESCO",
+      "title": "Global Education Monitoring Report 2026: Access and equity",
+      "url": "https://www.unesco.org/reports/gem-report/en",
+      "take": "Access and equity should be examined alongside education technology and delivery.",
+      "limit": "A report series is a context source, not a trial of this application."
+    },
+    {
+      "id": "R01",
+      "domain": "repair",
+      "year": 2026,
+      "org": "European Commission",
+      "title": "Right to repair: New consumer rights for easy and attractive repairs",
+      "url": "https://commission.europa.eu/news-and-media/news/right-repair-new-consumer-rights-easy-and-attractive-repairs-2026-07-31_en",
+      "take": "Repairable-product access, parts, reasonable terms and consumer information can support product life extension.",
+      "limit": "Jurisdiction and product-specific law vary; this European measure is not global advice."
+    },
+    {
+      "id": "R02",
+      "domain": "repair",
+      "year": 2025,
+      "org": "European Commission Joint Research Centre",
+      "title": "Product-as-a-service: a consumer model for a more circular economy",
+      "url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/product-service-consumer-model-more-circular-economy-2025-12-05_en",
+      "take": "A specific vacuum-cleaner case links return systems, component collection and reuse to material efficiency.",
+      "limit": "Case assumptions are not transferable coefficients for all appliances or ownership models."
+    },
+    {
+      "id": "D01",
+      "domain": "navigator",
+      "year": 2024,
+      "org": "OECD",
+      "title": "Digital public infrastructure for digital governments",
+      "url": "https://www.oecd.org/en/publications/digital-public-infrastructure-for-digital-governments_ff525dc8-en.html",
+      "take": "Shared digital infrastructure needs interoperability, funding, governance and strong privacy safeguards.",
+      "limit": "Access to a portal is not the same as successful service entitlement."
+    },
+    {
+      "id": "D02",
+      "domain": "navigator",
+      "year": 2026,
+      "org": "UNDP / Digital Public Goods Alliance",
+      "title": "DPG Standard and Universal DPI Safeguards Framework",
+      "url": "https://www.undp.org/digital/blog/how-dpg-standard-and-universal-dpi-safeguards-framework-are-charting-safe-and-inclusive-digital-future",
+      "take": "Design for data minimization, consent, security, accessibility, accountability and appropriate AI oversight.",
+      "limit": "This prototype has not been assessed or certified as a digital public good."
+    },
+    {
+      "id": "O01",
+      "domain": "evidence",
+      "year": 2021,
+      "org": "UNESCO",
+      "title": "Recommendation on Open Science",
+      "url": "https://www.unesco.org/en/legal-affairs/recommendation-open-science",
+      "take": "Open science combines quality, equity, reproducibility and respect for knowledge holders and FAIR/CARE data governance.",
+      "limit": "Open does not mean unrestricted reuse of private, Indigenous or sensitive data."
+    },
+    {
+      "id": "O02",
+      "domain": "evidence",
+      "year": 2019,
+      "org": "US Environmental Protection Agency",
+      "title": "Participatory science quality assurance handbook and toolkit",
+      "url": "https://www.epa.gov/participatory-science/quality-assurance-handbook-and-toolkit-participatory-science-projects",
+      "take": "Representative sampling, documented methods and fitness-for-purpose QA improve the utility of community observations.",
+      "limit": "Community measurements require appropriate validation before regulatory or high-stakes use."
+    },
+    {
+      "id": "N01",
+      "domain": "ecology",
+      "year": 2026,
+      "org": "Society for Ecological Restoration",
+      "title": "International Principles and Standards for Ecological Restoration · 3rd edition (June 2026)",
+      "url": "https://www.ser.org/page/SERStandards",
+      "take": "Native reference ecosystems, meaningful participation, rights and long-term recovery guide ecological restoration.",
+      "limit": "Planting tree seedlings does not by itself establish restoration or biodiversity gains."
+    },
+    {
+      "id": "N02",
+      "domain": "ecology",
+      "year": 2026,
+      "org": "FAO",
+      "title": "Framework for ecosystem restoration monitoring",
+      "url": "https://www.fao.org/ecosystem-restoration-monitoring/en",
+      "take": "Adaptively monitor ecosystem condition, biodiversity and services with transparent indicators.",
+      "limit": "Remote observations and simple counts cannot replace ecological field verification."
+    },
+    {
+      "id": "M01",
+      "domain": "exchange",
+      "year": 2026,
+      "org": "PLOS ONE",
+      "title": "Willingness, motivators and barriers to time-bank participation: scoping review",
+      "url": "https://doi.org/10.1371/journal.pone.0322760",
+      "take": "Participation depends on trust, motivation, capacity and practical barriers; exchanges require deliberate design.",
+      "limit": "A scoping review of participation is not proof that every exchange increases wealth or health."
+    },
+    {
+      "id": "A01",
+      "domain": "foundry",
+      "year": 2024,
+      "org": "NIST",
+      "title": "AI Risk Management Framework: Generative AI Profile",
+      "url": "https://doi.org/10.6028/NIST.AI.600-1",
+      "take": "Evaluate AI-generated outputs, map relevant harms and document governance throughout the lifecycle.",
+      "limit": "A risk framework is a process aid, not a certification of safe AI outputs."
+    },
+    {
+      "id": "A02",
+      "domain": "foundry",
+      "year": 2026,
+      "org": "NIST",
+      "title": "AI Risk Management Framework resource center and ongoing revision",
+      "url": "https://airc.nist.gov/",
+      "take": "Test, evaluate, verify and validate AI before relying on it; the core RMF was undergoing revision in 2026.",
+      "limit": "Confirm the current version before citing it as a standard."
+    },
+    {
+      "id": "A03",
+      "domain": "foundry",
+      "year": 2025,
+      "org": "UNDP",
+      "title": "Building a fairer digital future starts with trusted data",
+      "url": "https://www.undp.org/digital/blog/building-fairer-digital-future-starts-trusted-data-governance-assessment-framework-digital-public-infrastructure",
+      "take": "Data exchanges require consent-based governance, equity, accountability and realistic institutional responsibility.",
+      "limit": "Interoperability alone does not make data sharing lawful, equitable, or useful."
+    }
+  ],
+  "engines": [
+    {
+      "id": "food",
+      "icon": "🥬",
+      "name": "Edible Civilization",
+      "subtitle": "Food and nutrition access",
+      "problem": "Local food availability, affordability and dietary diversity are constrained by land access, purchasing power, climate, or supply chains.",
+      "mechanism": "Match demand, seasonality, land rights, nutrient diversity, growers and distribution; compare gardens with purchasing and redistribution alternatives.",
+      "research": "The 2025 CFS recommendations frame urban food security as production PLUS affordability, transport, nutrition and governance. A 37-study garden review reports potential access benefits but selection and equity limitations. Urban-farm life-cycle burdens differ by technology and location.",
+      "science": "Use systems dynamics and food-flow balances: edible production = planted area × observed yield × edible fraction. For an effect claim, compare household food access before/after against a credible comparison and track season, cost, displacement and diet quality.",
+      "pilot": "Co-design a permissioned 30 m² plot or produce-sharing pilot with residents; document soil safety, accessibility, crop selection, distribution and post-harvest losses.",
+      "counter": "A garden can increase harvested weight without improving nutrition or affordability; high-tech production may increase energy costs and displace other land uses.",
+      "critical": "Test soil contamination; obtain land and water permissions; follow safe food-handling practices; consider allergies and accessibility. Never imply harvested mass alone proves food security.",
+      "metric": [
+        [
+          "edible_kg",
+          "Edible produce harvested",
+          "kg",
+          "up"
+        ],
+        [
+          "households_served",
+          "Households receiving produce",
+          "households",
+          "up"
+        ],
+        [
+          "price_local",
+          "Price per comparable basket",
+          "local currency",
+          "down"
+        ],
+        [
+          "food_access",
+          "Food-access score (locally validated)",
+          "points",
+          "up"
+        ]
+      ],
+      "sources": [
+        "F01",
+        "F02",
+        "F03",
+        "F04"
+      ],
+      "links": [
+        "resilience",
+        "exchange",
+        "ecology"
+      ],
+      "tasks": [
+        "Ask affected households what food is missing",
+        "Get land, soil and water safety checks",
+        "Record baseline access and seasonal prices",
+        "Set permissions and accessible harvesting rules",
+        "Pilot food production or a redistribution alternative",
+        "Weigh usable harvest and record losses",
+        "Review cost, inclusion and unintended harms"
+      ]
+    },
+    {
+      "id": "skills",
+      "icon": "🛠️",
+      "name": "Skills-to-Livelihood",
+      "subtitle": "Recognized competence and decent work",
+      "problem": "People have unrecognized abilities but limited routes to paid, safe, dignified work and accredited training.",
+      "mechanism": "Map demonstrated competences and adjacent skills to documented opportunities; link practical learning with workplace experience and credible recognition.",
+      "research": "The ILO 2026 lifelong-learning report identifies uneven training access and fragmented systems. It reports that rounded competencies, workplace learning, and recognized qualifications matter. ILO–UNICEF 2025 documents opportunities and governance limits for microcredentials.",
+      "science": "Model a transition pathway as an evidence graph: baseline skill → assessed task → coached practice → externally recognized qualification → job application → verified employment outcome; account for selection and local job availability.",
+      "pilot": "Choose one locally advertised role; assess transferable skills; arrange one voluntary practical task and seek a recognized credential pathway.",
+      "counter": "Training may yield badges but no better employment when demand, transport, care duties or discrimination are unaddressed.",
+      "critical": "Do not invent employment openings or credential recognition. Respect labour rights, safety training, accessibility, and fair payment for productive work.",
+      "metric": [
+        [
+          "competencies",
+          "Competencies independently demonstrated",
+          "count",
+          "up"
+        ],
+        [
+          "placements",
+          "Verified paid placements",
+          "people",
+          "up"
+        ],
+        [
+          "training_cost",
+          "Cost per qualified learner",
+          "local currency",
+          "down"
+        ],
+        [
+          "retention",
+          "Employment retained at review",
+          "people",
+          "up"
+        ]
+      ],
+      "sources": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "links": [
+        "education",
+        "repair",
+        "foundry"
+      ],
+      "tasks": [
+        "Interview participants about skills and constraints",
+        "Check actual local openings and credential requirements",
+        "Document baseline skills using practical assessment",
+        "Create a consent-based practical learning activity",
+        "Confirm occupational safety and fair compensation",
+        "Verify skills with an independent assessor",
+        "Check employment outcomes and participation equity"
+      ]
+    },
+    {
+      "id": "resilience",
+      "icon": "💧",
+      "name": "Household Resilience",
+      "subtitle": "Water, energy and essential needs",
+      "problem": "Households experience unreliable essentials, unsafe water or unaffordable energy and lack usable contingency plans.",
+      "mechanism": "Identify critical needs, map failure modes and dependencies, compare feasible risk-reduction options, and document maintenance.",
+      "research": "WHO recommends validated household water treatment plus safe storage, and emphasizes suitability to the source and hazard. WHO 2025 water systems guidance takes a source-to-user approach. IEA 2025 distinguishes grid expansion, mini-grids and standalone energy access.",
+      "science": "Apply failure-mode-and-effects analysis and water/energy balances. An energy-duration example is usable battery energy (Wh) ÷ average load (W); it ignores surge, temperature and battery protection and must never replace electrical design.",
+      "pilot": "Survey voluntary household needs without names; create a 72-hour contact and supply plan and validate one professionally reviewed improvement.",
+      "counter": "An apparently affordable filter can miss dissolved contaminants; an undersized battery may fail under startup loads; supplies may not reach those with limited mobility.",
+      "critical": "Never certify drinking water or prescribe treatment by arithmetic alone. Consult local water authorities, laboratory tests, licensed electricians, and emergency services as relevant.",
+      "metric": [
+        [
+          "safe_supply",
+          "Days of verified essential supply",
+          "days",
+          "up"
+        ],
+        [
+          "outages",
+          "Hours without essential service",
+          "hours",
+          "down"
+        ],
+        [
+          "cost",
+          "Monthly essential service cost",
+          "local currency",
+          "down"
+        ],
+        [
+          "prepared",
+          "Households with tested emergency plan",
+          "households",
+          "up"
+        ]
+      ],
+      "sources": [
+        "W01",
+        "W02"
+      ],
+      "links": [
+        "food",
+        "navigator",
+        "exchange"
+      ],
+      "tasks": [
+        "Ask participants to define essential needs",
+        "Identify hazards and official local guidance",
+        "Document baseline costs and outages",
+        "Identify priority accessibility and safety barriers",
+        "Compare validated options and professional support",
+        "Test a nonhazardous preparedness step",
+        "Document maintenance, equity and residual risks"
+      ]
+    },
+    {
+      "id": "education",
+      "icon": "📚",
+      "name": "Infinite Apprenticeship",
+      "subtitle": "Competency-based accessible learning",
+      "problem": "Learners lack practical instruction, equitable access, mentors or evidence that acquired knowledge transfers to real tasks.",
+      "mechanism": "Design short cycles of explanation, retrieval practice, worked examples, coached application, feedback and independent demonstration.",
+      "research": "UNESCO GEM 2026 emphasizes access and equity, with geographic and income disparities and gaps in reporting. ILO 2026 treats workplace and informal learning as valuable but often unrecognized.",
+      "science": "Define learning objectives and preregister assessment rubrics; measure transfer on a new task, not only attendance or quiz recall. Examine participation and completion across accessibility and resource constraints with consent.",
+      "pilot": "Make one openly accessible lesson plus a hands-on task, two assessment attempts, useful feedback and a paper alternative.",
+      "counter": "A high completion rate may reflect easy tasks or motivated early adopters, not actual competencies or inclusion.",
+      "critical": "Child protection, inclusive design, mentor vetting and content accuracy take precedence. Do not issue unaccredited badges as professional qualifications.",
+      "metric": [
+        [
+          "mastery",
+          "Learners demonstrating skill independently",
+          "people",
+          "up"
+        ],
+        [
+          "access",
+          "Learners able to access course",
+          "people",
+          "up"
+        ],
+        [
+          "cost",
+          "Cost per demonstrated competency",
+          "local currency",
+          "down"
+        ],
+        [
+          "dropout",
+          "Participants unable to complete",
+          "people",
+          "down"
+        ]
+      ],
+      "sources": [
+        "E01",
+        "S01",
+        "S02"
+      ],
+      "links": [
+        "skills",
+        "foundry",
+        "navigator"
+      ],
+      "tasks": [
+        "Co-design objectives with learners and educators",
+        "Check disability, language and device barriers",
+        "Define a competency rubric and baseline task",
+        "Produce offline and printable teaching material",
+        "Deliver coached practice with consent",
+        "Assess an unfamiliar transfer task independently",
+        "Record withdrawals, feedback and improvements"
+      ]
+    },
+    {
+      "id": "repair",
+      "icon": "🔧",
+      "name": "Repair and Reuse",
+      "subtitle": "Circular material stewardship",
+      "problem": "Usable products become waste because repair guidance, tools, parts, warranties or qualified services are unavailable.",
+      "mechanism": "Assess safe repairability and whole-life costs, connect parts and tools, and document whether extending product life changes material use.",
+      "research": "The European Commission explains that EU repair rules apply from July 2026 to covered products and create repair-related consumer rights; these do not apply globally. Circular-economy outcomes depend on actual use, repair longevity and rebound effects.",
+      "science": "Cost difference = replacement acquisition + disposal − (repair quote + parts + transport + downtime), under a common service-life horizon. An environmental claim requires life-cycle inventory, not monetary savings alone.",
+      "pilot": "Audit five low-risk broken items, obtain professional quotes where needed, compare repaired product reliability and document reuse.",
+      "counter": "Frequent repeat repairs, inefficient old appliances or unsafe fixes can eliminate claimed savings.",
+      "critical": "Never offer instructions for hazardous electrical, gas, structural, pressurized or battery-cell repairs; use qualified repairers. Check local warranty and consumer law.",
+      "metric": [
+        [
+          "items",
+          "Functional items returned to service",
+          "count",
+          "up"
+        ],
+        [
+          "cost",
+          "Repair cost per functional year",
+          "local currency/year",
+          "down"
+        ],
+        [
+          "lifetime",
+          "Verified extra service life",
+          "months",
+          "up"
+        ],
+        [
+          "waste",
+          "Measured material diverted",
+          "kg",
+          "up"
+        ]
+      ],
+      "sources": [
+        "R01",
+        "R02"
+      ],
+      "links": [
+        "skills",
+        "exchange",
+        "foundry"
+      ],
+      "tasks": [
+        "Catalogue item type without owner identity",
+        "Screen for electrical, fire, chemical and structural risks",
+        "Check local warranty and manufacturer guidance",
+        "Compare professional repair and replacement options",
+        "Choose only an authorized safe repair route",
+        "Verify operation and log repeat failures",
+        "Document full costs and actual extended life"
+      ]
+    },
+    {
+      "id": "navigator",
+      "icon": "🧭",
+      "name": "Empowerment Navigator",
+      "subtitle": "Understand and access public services",
+      "problem": "People face confusing forms, inaccessible services, changing eligibility criteria or language and digital barriers.",
+      "mechanism": "Use plain-language explanations grounded in current official sources, build application checklists, and hand off ambiguous cases to appropriate staff.",
+      "research": "OECD 2024 digital public infrastructure principles concern interoperability and governance. UNDP 2026 discusses updates to digital public good standards and safeguards that put privacy, security and inclusion into the design lifecycle.",
+      "science": "Evaluate service completion with a funnel: need identified → correct program found → application accessible → submission → independently confirmed result. Track false eligibility suggestions and whether the tool increases or reduces exclusion.",
+      "pilot": "Map one public service from the official website, test a plain-language walkthrough with volunteers, and correct every ambiguity.",
+      "counter": "A clear chatbot answer may still be out of date or incorrect; poorly designed identity demands can exclude vulnerable applicants.",
+      "critical": "Never determine benefit eligibility or give definitive legal advice. Do not request identity documents, account credentials or health records. Consult the service directly for live rules.",
+      "metric": [
+        [
+          "completed",
+          "Verified successful service accesses",
+          "people",
+          "up"
+        ],
+        [
+          "errors",
+          "Incorrect guidance cases",
+          "count",
+          "down"
+        ],
+        [
+          "time",
+          "User time to confirmed outcome",
+          "minutes",
+          "down"
+        ],
+        [
+          "excluded",
+          "Access barriers unresolved",
+          "count",
+          "down"
+        ]
+      ],
+      "sources": [
+        "D01",
+        "D02"
+      ],
+      "links": [
+        "resilience",
+        "education",
+        "evidence"
+      ],
+      "tasks": [
+        "Interview users on barriers without identifiers",
+        "Locate and date official eligibility instructions",
+        "Check accessibility, translation and offline routes",
+        "Map steps and high-risk decision points",
+        "User-test a plain-language checklist",
+        "Confirm results with appropriate service staff",
+        "Log incorrect advice and remedy it"
+      ]
+    },
+    {
+      "id": "evidence",
+      "icon": "🔬",
+      "name": "Open Evidence Commons",
+      "subtitle": "Reproducible and rights-aware knowledge",
+      "problem": "Decisions rely on anecdotes, opaque evidence claims or datasets without methodological, consent or provenance controls.",
+      "mechanism": "Keep claim–source–method–limitation–alternative–test records and support correction, permission and ethical access.",
+      "research": "UNESCO Open Science 2021 promotes transparent, equitable research and plural knowledge systems. EPA participatory-science QA resources provide operational documentation and QA-plan templates; updated site access does not imply a new 2026 handbook.",
+      "science": "Predefine population, exposure, comparator, outcome and time (PICO/PICOT). Record selection, missingness, confounding, measurement uncertainty, preregistered tests and uncertainty intervals when appropriate.",
+      "pilot": "Choose one public claim; locate the primary source, specify the exact population, reproduce one calculation and record what remains unknown.",
+      "counter": "A polished bibliography may use irrelevant studies or expose Indigenous, private or sensitive knowledge without permission.",
+      "critical": "Never assume open publication permits unrestricted reuse. Respect community data governance, human subjects, copyrights and correction requests.",
+      "metric": [
+        [
+          "verified",
+          "Claims with auditable supporting source",
+          "count",
+          "up"
+        ],
+        [
+          "corrections",
+          "Corrections documented",
+          "count",
+          "up"
+        ],
+        [
+          "unresolved",
+          "Material questions unresolved",
+          "count",
+          "down"
+        ],
+        [
+          "reproduced",
+          "Independent replications attempted",
+          "count",
+          "up"
+        ]
+      ],
+      "sources": [
+        "O01",
+        "O02",
+        "A01"
+      ],
+      "links": [
+        "navigator",
+        "foundry",
+        "ecology"
+      ],
+      "tasks": [
+        "Write one precise falsifiable question",
+        "Identify the affected population and permissions",
+        "Find primary evidence and its original methods",
+        "Record limitations and contrary studies",
+        "Reproduce a calculation or observation safely",
+        "Invite correction from a competent reviewer",
+        "Publish only consented non-sensitive results"
+      ]
+    },
+    {
+      "id": "ecology",
+      "icon": "🌿",
+      "name": "Regenerative Quest",
+      "subtitle": "Restoration measured as recovery",
+      "problem": "Restoration activities are rewarded for inputs such as seedlings rather than recovery of ecosystem condition and rights-respecting stewardship.",
+      "mechanism": "Set reference ecosystem and baseline, choose appropriate interventions with rights holders, track survival and ecological function over multiple seasons.",
+      "research": "The Society for Ecological Restoration issued its third-edition international standards in June 2026. FAO Framework for Ecosystem Restoration Monitoring provides common reporting and indicator approaches, but local ecological assessments remain essential.",
+      "science": "Track survival as live tagged individuals ÷ originally tagged individuals at a specified time; avoid survivor-only sampling. Combine with native recruitment, invasive species, hydrology, soils and habitat indicators before claiming restoration.",
+      "pilot": "Select a permitted small site with local rights holders and ecological specialists; establish plots, reference area, photographs, and a seasonal monitoring plan.",
+      "counter": "High survival of inappropriate species can undermine native habitat, while apparent greening may be invasive expansion.",
+      "critical": "Obtain rights-holder consent and permits; avoid invasive species, habitat conversion and planting where an open ecosystem is the reference state. Consult Indigenous knowledge holders on their terms.",
+      "metric": [
+        [
+          "survival",
+          "Tagged native plant survival",
+          "percent",
+          "up"
+        ],
+        [
+          "native",
+          "Native species richness",
+          "count",
+          "up"
+        ],
+        [
+          "invasive",
+          "Invasive cover",
+          "percent",
+          "down"
+        ],
+        [
+          "condition",
+          "Locally validated habitat condition",
+          "points",
+          "up"
+        ]
+      ],
+      "sources": [
+        "N01",
+        "N02",
+        "O02"
+      ],
+      "links": [
+        "food",
+        "exchange",
+        "evidence"
+      ],
+      "tasks": [
+        "Identify land rights holders and obtain consent",
+        "Choose native reference ecosystem with specialists",
+        "Collect baseline habitat and seasonal conditions",
+        "Specify desired recovery beyond plant counts",
+        "Choose context-appropriate non-invasive interventions",
+        "Monitor tagged plots at fixed intervals",
+        "Report failures, uncertainty and maintenance needs"
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🤝",
+      "name": "Neighborhood Abundance",
+      "subtitle": "Voluntary sharing and mutual aid",
+      "problem": "Needed resources are unavailable to some residents while useful tools, food or skills remain underused elsewhere.",
+      "mechanism": "Enable consent-based, accessible matching of needs and voluntary offers; maintain transparent norms without forcing reciprocal debt.",
+      "research": "A 2026 PLOS ONE scoping review of time banking identified trust, social and usability barriers in 30 studies; willingness to participate does not demonstrate net wealth gains or effectiveness across all communities.",
+      "science": "Evaluate match completion (fulfilled / eligible requests), time to fulfillment, equitable access, participant burden and unintended costs; separate number of exchanges from improvement in well-being.",
+      "pilot": "Organize a paper-first borrow/share event for safe tools and excess produce with clear ownership and return rules.",
+      "counter": "A platform can concentrate benefits among already connected people, burden volunteers, or facilitate unsafe exchanges.",
+      "critical": "No coercive work, hidden debt, discriminatory matching or sharing of contact details by default. Require safeguarding for child-related exchanges and appropriate food/tool safety.",
+      "metric": [
+        [
+          "fulfilled",
+          "Requests safely fulfilled",
+          "count",
+          "up"
+        ],
+        [
+          "access",
+          "Participants with unmet needs",
+          "people",
+          "down"
+        ],
+        [
+          "utilization",
+          "Previously idle items reused",
+          "count",
+          "up"
+        ],
+        [
+          "incidents",
+          "Reported safety incidents",
+          "count",
+          "down"
+        ]
+      ],
+      "sources": [
+        "M01",
+        "D02"
+      ],
+      "links": [
+        "food",
+        "repair",
+        "resilience"
+      ],
+      "tasks": [
+        "Ask participants which needs matter",
+        "Write voluntary consent and safeguarding rules",
+        "Define fair allocation before matching",
+        "Choose accessible offline sign-up options",
+        "Pilot a small safe exchange",
+        "Record fulfillment and safety incidents",
+        "Audit exclusion and volunteer burdens"
+      ]
+    },
+    {
+      "id": "foundry",
+      "icon": "✨",
+      "name": "Benevolent Invention",
+      "subtitle": "Open experimentation and replication",
+      "problem": "Good ideas remain inaccessible, poorly tested, unsafe, or impossible to replicate without proprietary accounts and opaque methods.",
+      "mechanism": "Turn a concrete need into testable hypotheses, prototyping plans, risk reviews, reproducibility packages and consented dissemination.",
+      "research": "NIST AI RMF and its 2024 generative-AI profile recommend structured risk management and evaluation; the RMF 1.0 is undergoing revision in 2026. Open-science and digital-public-good guidance also require governance and reuse rights.",
+      "science": "Progress through problem definition → plausible mechanism → falsifiable hypothesis → feasible pilot → preregistered outcome → independent replication. Specify stopping rules and risk owners.",
+      "pilot": "Select one nonhazardous community problem and produce a low-cost prototype, a safety checklist and an independent test plan.",
+      "counter": "Novelty and popularity can reward untested claims; open release may propagate harmful instructions or misuse sensitive community data.",
+      "critical": "Assess misuse and dual use, permissions, informed consent, vulnerable populations and genuine product safety before publication. Publish failures as well as successes.",
+      "metric": [
+        [
+          "replicated",
+          "Independent replications completed",
+          "count",
+          "up"
+        ],
+        [
+          "safe",
+          "Documented safety reviews",
+          "count",
+          "up"
+        ],
+        [
+          "failures",
+          "Transparent negative findings",
+          "count",
+          "up"
+        ],
+        [
+          "benefits",
+          "Verified outcomes with comparison",
+          "count",
+          "up"
+        ]
+      ],
+      "sources": [
+        "A01",
+        "A02",
+        "A03",
+        "O01"
+      ],
+      "links": [
+        "evidence",
+        "education",
+        "skills"
+      ],
+      "tasks": [
+        "Interview people experiencing the problem",
+        "Search prior art and respect licenses",
+        "State alternative explanations and falsifiers",
+        "Write safety, consent and stop rules",
+        "Prototype at the least hazardous feasible scale",
+        "Record measures and independent critique",
+        "Publish a reproducible package with limitations"
+      ]
+    }
+  ],
+  "methods": [
+    [
+      "Logic model",
+      "Inputs → activities → outputs → outcomes → impact; inspect every arrow, not just the endpoint.",
+      "Example: seedlings and planting days are outputs; multi-year native ecological recovery is an outcome."
+    ],
+    [
+      "Counterfactual",
+      "The difference between an observed outcome and what would have happened without the intervention.",
+      "Where feasible, use consented comparison groups, matched baselines and sensitivity checks."
+    ],
+    [
+      "Sampling & missingness",
+      "Specify eligible population, selection, unit of analysis, measurement dates and reasons data are missing.",
+      "Avoid treating only enthusiastic respondents as representative."
+    ],
+    [
+      "Uncertainty & sensitivity",
+      "Separate instrument error, natural variability, model assumptions and inferential uncertainty.",
+      "A ±20% scenario slider is not a confidence or credible interval."
+    ],
+    [
+      "Life-cycle perspective",
+      "Track acquisition, operating energy, material flows, disposal, durability and rebound effects.",
+      "Local production and repair are not inherently lower-emission without a common functional unit."
+    ],
+    [
+      "Equity & rights",
+      "Ask who defines success, who bears costs, who can refuse, who owns data, and who receives benefits.",
+      "Co-governance and accessibility are implementation requirements, not decorative features."
+    ]
+  ],
+  "glossary": [
+    [
+      "Baseline",
+      "A measured starting value collected before action using a documented method."
+    ],
+    [
+      "Comparator",
+      "The condition or group against which an intervention is evaluated."
+    ],
+    [
+      "Confounder",
+      "A factor related to both intervention selection and the outcome that can distort an association."
+    ],
+    [
+      "Counterfactual",
+      "What would have happened without the intervention; rarely directly observable."
+    ],
+    [
+      "External validity",
+      "Whether findings generalize to a different population, place or season."
+    ],
+    [
+      "FAIR / CARE",
+      "FAIR guides findability, accessibility, interoperability and reuse; CARE concerns collective benefit, authority to control, responsibility and ethics in Indigenous data governance."
+    ],
+    [
+      "Functional unit",
+      "A shared service basis for life-cycle comparison, e.g. one functioning appliance-year."
+    ],
+    [
+      "Measurement error",
+      "Difference between observed measurement and the value the measure is intended to represent."
+    ],
+    [
+      "Preregistration",
+      "Recording hypotheses, primary outcomes and analysis decisions before observing results."
+    ],
+    [
+      "Rebound effect",
+      "Efficiency savings induce additional activity that offsets some expected resource reductions."
+    ],
+    [
+      "Risk owner",
+      "Named person or organization accountable for identifying, monitoring and responding to a specific harm."
+    ],
+    [
+      "Selection bias",
+      "Systematic distortion when who participates or remains in a sample differs from the target population."
+    ],
+    [
+      "Stopping rule",
+      "A condition set before a pilot that requires pause, revision or termination."
+    ],
+    [
+      "Triangulation",
+      "Examine claims using independent methods or sources with different vulnerabilities."
+    ]
+  ]
+}

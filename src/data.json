@@ -1,0 +1,1490 @@
+{
+  "domains": [
+    {
+      "id": "food",
+      "title": "Food & edible infrastructure",
+      "description": "Protect access and nutrition; measure real distribution, not just harvest."
+    },
+    {
+      "id": "water",
+      "title": "Water security & hydrology",
+      "description": "Separate safe-water claims from simplified flow calculations."
+    },
+    {
+      "id": "restoration",
+      "title": "Ecological regeneration",
+      "description": "Protect ecological rights and avoid planting-count vanity metrics."
+    },
+    {
+      "id": "housing",
+      "title": "Housing, shelter & care",
+      "description": "Address safety, rights, access and actual occupancy rather than concept counts."
+    },
+    {
+      "id": "education",
+      "title": "Education & learning autonomy",
+      "description": "Build capability and critical thinking without gamified coercion."
+    },
+    {
+      "id": "careers",
+      "title": "Workforce & regenerative careers",
+      "description": "Expose transferable skills and training gaps without promising employment."
+    },
+    {
+      "id": "civic",
+      "title": "Civic participation & transparency",
+      "description": "Inform choices and preserve agency; no advocacy or ranked political choices."
+    },
+    {
+      "id": "peace",
+      "title": "Peace & human security",
+      "description": "Nonviolent prevention, rights and consent with independently checked evidence."
+    },
+    {
+      "id": "health",
+      "title": "Community care & health navigation",
+      "description": "Support access to verified services; never diagnose or replace clinicians."
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy, trust & evidence",
+      "description": "Keep authorship, content integrity and real-world validation separate."
+    },
+    {
+      "id": "governance",
+      "title": "Organizations & cooperative governance",
+      "description": "Respect actual authority, legal differences and stakeholder independence."
+    },
+    {
+      "id": "science",
+      "title": "Open science & epistemic rigor",
+      "description": "Make uncertainty and negative results visible rather than hiding them."
+    },
+    {
+      "id": "digital",
+      "title": "Digital public infrastructure",
+      "description": "Offer interoperable tools without requiring accounts or hidden dependency."
+    },
+    {
+      "id": "media",
+      "title": "Media, storytelling & knowledge transfer",
+      "description": "Use narratives to expand curiosity while labelling fiction and evidence."
+    },
+    {
+      "id": "children",
+      "title": "Children & family empowerment",
+      "description": "Design age-appropriate education with adult-supported safety boundaries."
+    }
+  ],
+  "methods": [
+    {
+      "id": "food_01",
+      "domain": "food",
+      "title": "Neighborhood food commons",
+      "overview": "Map needs, assets, existing services and voluntary partners before proposing a site.",
+      "action": "Create a consent-led supply and access agreement that preserves access for nonparticipants.",
+      "metric": "Accessible food received by defined households per period.",
+      "risk": "Compulsory labour, exclusion or unverified food safety.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "food_02",
+      "domain": "food",
+      "title": "Edible landscape pilot",
+      "overview": "Assess tenure, contamination, climate, irrigation, pollinators and long maturation times.",
+      "action": "Pilot a small suitable site with specialist approval and paid maintenance.",
+      "metric": "Safe edible kilograms actually distributed and lifecycle cost.",
+      "risk": "Unverified soil safety, land rights or exaggerated yield.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "food_03",
+      "domain": "food",
+      "title": "Regional cold-chain collaboration",
+      "overview": "Map producer demand, actual throughput, power redundancy and refrigeration obligations.",
+      "action": "Co-design an independently owned hub with producer opt-out and transparent contracts.",
+      "metric": "Verified spoilage change at a comparable throughput.",
+      "risk": "Shared single-point failure or nonviable operating costs.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "food_04",
+      "domain": "food",
+      "title": "School food access",
+      "overview": "Study current meal programs, funding eligibility and beneficiary access first.",
+      "action": "Co-design accessible meals or sourcing improvements with school and food-safety personnel.",
+      "metric": "Participation and dietary adequacy using appropriate methods.",
+      "risk": "Stigmatization, hidden fees or replacing professional nutrition assessment.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "food_05",
+      "domain": "food",
+      "title": "Food-flow resilience",
+      "overview": "Model shared dependence on suppliers, highways, grids, funding and storage.",
+      "action": "Test one reversible backup arrangement without claiming guaranteed emergency supply.",
+      "metric": "Documented continuity hours and independent fallback capacity.",
+      "risk": "False redundancy, food spoilage or unverified inventories.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "water_01",
+      "domain": "water",
+      "title": "Watershed stewardship",
+      "overview": "Map rights, upstream/downstream users, ecology and seasonal constraints.",
+      "action": "Design a locally governed watershed observation protocol with specialist review.",
+      "metric": "Flow and quality observations with methods and units.",
+      "risk": "Rights violations or unsound hydrology.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "water_02",
+      "domain": "water",
+      "title": "Household water safety chain",
+      "overview": "Define likely contamination pathways; rely on local public-health guidance.",
+      "action": "Document sedimentation, filtration and disinfection only after appropriate expert validation.",
+      "metric": "Verified water quality via appropriate laboratory tests.",
+      "risk": "Treating appearance or uncalibrated sensors as proof of potability.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "water_03",
+      "domain": "water",
+      "title": "Community water balance",
+      "overview": "Record supply, demand, losses, storage, climate and uncertainty.",
+      "action": "Build a transparent mass-balance worksheet and compare conservation options.",
+      "metric": "Metered withdrawals and service continuity over time.",
+      "risk": "Confusing illustrative calculations with engineering authorization.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "water_04",
+      "domain": "water",
+      "title": "Leak-response partnership",
+      "overview": "Identify infrastructure owners, telemetry needs and repair authority.",
+      "action": "Propose a bounded leak identification and repair pilot.",
+      "metric": "Metered losses with stable measurement boundaries.",
+      "risk": "Privacy intrusion, unsafe repair or unreliable baseline.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "restoration_01",
+      "domain": "restoration",
+      "title": "Fruit-tree corridor",
+      "overview": "Check species suitability, local ecology, stewardship and land consent.",
+      "action": "Plan a pollinator-supporting planting pilot with multiyear maintenance.",
+      "metric": "Survival, appropriate biodiversity and harvest access.",
+      "risk": "Invasive planting or unsupported fruit-output predictions.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "restoration_02",
+      "domain": "restoration",
+      "title": "Soil recovery lab",
+      "overview": "Map land use, erosion, salinity and contaminant status.",
+      "action": "Design a paired field-observation study with independent agronomic input.",
+      "metric": "Soil indicators measured consistently with uncertainty.",
+      "risk": "Overstated sequestration or ignored contamination.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "restoration_03",
+      "domain": "restoration",
+      "title": "Community seed stewardship",
+      "overview": "Review seed provenance, access rights and biological context.",
+      "action": "Develop a locally owned seed catalog with voluntary exchange rules.",
+      "metric": "Germination, viable diversity and documented permissions.",
+      "risk": "Misappropriation of Indigenous or restricted seed knowledge.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "restoration_04",
+      "domain": "restoration",
+      "title": "Watershed biodiversity monitoring",
+      "overview": "Define habitat, season and monitoring effort before interpreting change.",
+      "action": "Create repeatable field sheets and species records.",
+      "metric": "Repeat observations per standardized effort.",
+      "risk": "Detection bias masquerading as biodiversity recovery.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "housing_01",
+      "domain": "housing",
+      "title": "Shelter constraint map",
+      "overview": "Catalog capacity, eligibility barriers, funding, zoning and lived experience.",
+      "action": "Build a locally reviewed barrier register with responsible parties.",
+      "metric": "Access time, placement continuity and client-defined outcomes.",
+      "risk": "Exposure of vulnerable people or unsupported legal interpretations.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "housing_02",
+      "domain": "housing",
+      "title": "Housing-first coordination",
+      "overview": "Identify housing and wraparound-service availability without presuming one model fits all.",
+      "action": "Develop a voluntary partner and consent protocol for a bounded pilot.",
+      "metric": "Housing stability and access over a defined period.",
+      "risk": "Service coercion and unverified participant agreements.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "housing_03",
+      "domain": "housing",
+      "title": "Replicable accessible retrofit",
+      "overview": "Audit building fabric, fire code, affordability and tenant rights.",
+      "action": "Create a retrofit specification for qualified review.",
+      "metric": "Measured energy or habitability change and tenant costs.",
+      "risk": "Unsafe construction or displaced tenants.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "housing_04",
+      "domain": "housing",
+      "title": "Community land alternatives",
+      "overview": "Compare co-ops, trusts, conventional supply and rental assistance.",
+      "action": "Draft legal-review questions, finance models and exit conditions.",
+      "metric": "Affordability under comparable lifecycle assumptions.",
+      "risk": "Promises without land rights, finance or informed consent.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "education_01",
+      "domain": "education",
+      "title": "Learner-designed curriculum",
+      "overview": "Ask learners what outcomes matter and what sources challenge initial assumptions.",
+      "action": "Create a learner-controlled question, evidence and revision cycle.",
+      "metric": "Demonstrated competency with a documented rubric.",
+      "risk": "AI answers passed off as verified learning.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "education_02",
+      "domain": "education",
+      "title": "Classroom action lab",
+      "overview": "Identify a real problem within the school’s authorized scope.",
+      "action": "Prototype a small student-proposed improvement with teacher oversight.",
+      "metric": "Observed participation and implementation evidence.",
+      "risk": "Fabricated decisions or minors’ privacy exposure.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "education_03",
+      "domain": "education",
+      "title": "Apprenticeship skill bridge",
+      "overview": "Translate existing capabilities into training prerequisites and practical evidence.",
+      "action": "Draft a training plan with supervised demonstrations.",
+      "metric": "Externally recognized competencies, not XP.",
+      "risk": "Unverified certification or hazardous unsupervised work.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "education_04",
+      "domain": "education",
+      "title": "AI critical-literacy chain",
+      "overview": "Form an independent answer before using AI; test alternatives and sources.",
+      "action": "Practice claim-evidence-limitation-falsifier loops.",
+      "metric": "Quality of independently supported corrections.",
+      "risk": "Automation bias, confident hallucinations and overdependence.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "careers_01",
+      "domain": "careers",
+      "title": "Occupation capability atlas",
+      "overview": "Decompose two roles into tasks, knowledge, skills and rewarding aspects.",
+      "action": "Compare overlaps and requirements; verify roles against current employers.",
+      "metric": "Documented capability match and real training options.",
+      "risk": "Invented job openings or misleading competence claims.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "careers_02",
+      "domain": "careers",
+      "title": "Reward-preserving off-ramp",
+      "overview": "Identify useful skills, lawful rewards, constraints, harm pathways and realistic income.",
+      "action": "Create a voluntary, safe successor hypothesis with consent and alternatives.",
+      "metric": "Verified training completion and participant-selected outcomes.",
+      "risk": "Coercion, stigma or unsupported salary assumptions.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "careers_03",
+      "domain": "careers",
+      "title": "Regenerative trades apprenticeship",
+      "overview": "Investigate relevant accreditation, safety standards, wage and regional demand.",
+      "action": "Build a supervised pilot with employers and educators.",
+      "metric": "Placement and retention using defined cohorts.",
+      "risk": "Credentials or labour demand asserted without verification.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "careers_04",
+      "domain": "careers",
+      "title": "Skills knowledge-pack exchange",
+      "overview": "Create tagged tasks, evidence and bridge requirements as portable records.",
+      "action": "Exchange validated skills taxonomies with explicit provenance.",
+      "metric": "Records accepted by independent reviewers.",
+      "risk": "Schema conflicts or treating self-report as a credential.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "civic_01",
+      "domain": "civic",
+      "title": "Public decision ledger",
+      "overview": "Identify the authorized decision process and information-release rules.",
+      "action": "Publish factual options, evidence and documented decisions after review.",
+      "metric": "Completeness, accessibility and factual corrections.",
+      "risk": "Private information or false claims of official status.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "civic_02",
+      "domain": "civic",
+      "title": "Citizen evidence request",
+      "overview": "Identify records holders and verify the actual local access process.",
+      "action": "Generate a neutral records-request checklist and review it before sending.",
+      "metric": "Traceable responses and correctly contextualized records.",
+      "risk": "Wrong legal deadlines or public disclosure of private material.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "civic_03",
+      "domain": "civic",
+      "title": "Participatory meeting kit",
+      "overview": "Clarify decision rights, agenda ownership and facilitation expectations.",
+      "action": "Generate an accessible meeting packet and voluntary feedback plan.",
+      "metric": "Documented representation and decision records.",
+      "risk": "Token consultation or fabricated consensus.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "civic_04",
+      "domain": "civic",
+      "title": "Civic resilience platform variation",
+      "overview": "Specify jurisdiction, legal boundaries, needs and accessible operating constraints.",
+      "action": "Generate an independent local civic-tool implementation brief.",
+      "metric": "Functioning validated pilot and reported limitations.",
+      "risk": "Unsafe surveillance, political targeting or invented institutional approval.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "peace_01",
+      "domain": "peace",
+      "title": "Early-warning governance",
+      "overview": "Define what can be observed ethically and who has authority to act.",
+      "action": "Create a rights-preserving escalation policy reviewed by specialists.",
+      "metric": "Verified alert quality and documented false alarms.",
+      "risk": "Surveillance, speculation or unsafe escalation.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "peace_02",
+      "domain": "peace",
+      "title": "Conflict-support directory",
+      "overview": "Verify operating hours, location scope and safety of referrals.",
+      "action": "Build a curated, locally reviewed referral registry.",
+      "metric": "Verified successful referrals without disclosing identities.",
+      "risk": "Exposing victims or promising unavailable services.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "peace_03",
+      "domain": "peace",
+      "title": "Restorative options lab",
+      "overview": "Separate voluntary restorative practice from criminal process and safety requirements.",
+      "action": "Document alternatives for qualified facilitators and affected parties.",
+      "metric": "Consented participation and harm outcomes with caveats.",
+      "risk": "Pressure to forgive, retaliation or bypassing legal protections.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "peace_04",
+      "domain": "peace",
+      "title": "De-escalation learning",
+      "overview": "Use scenario-based reflection without pretending to replace specialist training.",
+      "action": "Develop reversible role-play exercises with explicit stop rules.",
+      "metric": "Competence assessed by qualified instructors.",
+      "risk": "Encouraging unsafe intervention or vigilantism.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "health_01",
+      "domain": "health",
+      "title": "Service access atlas",
+      "overview": "Identify authoritative service listings, access requirements and update owners.",
+      "action": "Build a privacy-minimal resource index with verification dates.",
+      "metric": "Verified referral accuracy and accessibility.",
+      "risk": "Stale clinic details or exposure of health data.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "health_02",
+      "domain": "health",
+      "title": "Cooling and smoke support",
+      "overview": "Use current public-health recommendations and community consent.",
+      "action": "Document shelter locations and escalation to emergency services.",
+      "metric": "Verified service readiness rather than lives-saved guesses.",
+      "risk": "Medical claims without review or unsound indoor-air guidance.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "health_03",
+      "domain": "health",
+      "title": "Caregiver respite planning",
+      "overview": "Map verified community services and eligibility with consent.",
+      "action": "Create a personal, exportable nonclinical checklist.",
+      "metric": "Service utilization self-reported and independently confirmed where permitted.",
+      "risk": "Sensitive information leakage or false service availability.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "privacy_01",
+      "domain": "privacy",
+      "title": "Integrity ledger",
+      "overview": "Hash exact bytes, record claimed origin and optional independent anchor.",
+      "action": "Export a manifest with scope and limitations for each digest.",
+      "metric": "Successful byte-for-byte digest comparison.",
+      "risk": "Claiming hash proves creation time or authorship.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "privacy_02",
+      "domain": "privacy",
+      "title": "Consent-based data exchange",
+      "overview": "Map data classification, minimization and recipients.",
+      "action": "Build a human-reviewed share candidate and import/merge protocol.",
+      "metric": "Reviewed packages without exposed restricted fields.",
+      "risk": "Accidental release of private notes or irrecoverable merge.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "privacy_03",
+      "domain": "privacy",
+      "title": "Evidence provenance studio",
+      "overview": "Separate claims, sources, direct observation and inference.",
+      "action": "Document source URL, method, limitations and falsifier.",
+      "metric": "Traceable citations and independently confirmed claims.",
+      "risk": "Invented citations or false verification status.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "privacy_04",
+      "domain": "privacy",
+      "title": "Adversarial quality review",
+      "overview": "Model privacy, safety, accessibility, incentives, and misuse risks.",
+      "action": "Develop gates, rollback and external reviewers for high-stakes projects.",
+      "metric": "Recorded review evidence and actual fixes.",
+      "risk": "Treating self-checks as security certification.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "governance_01",
+      "domain": "governance",
+      "title": "Cooperative genome",
+      "overview": "Define rights, roles, exit, assets, dispute resolution and audit.",
+      "action": "Draft governance options with qualified legal and stakeholder review.",
+      "metric": "Ratified agreements and documented operational decisions.",
+      "risk": "Fictitious incorporation or non-consensual membership.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "governance_02",
+      "domain": "governance",
+      "title": "Institutional accountability pathway",
+      "overview": "Map authority, due process and legal obligations neutrally.",
+      "action": "Create a documented escalation and correction process.",
+      "metric": "Verified responses and corrections over time.",
+      "risk": "False accusations or predetermined conclusions.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "governance_03",
+      "domain": "governance",
+      "title": "Cross-sector partnership",
+      "overview": "Separate each party’s contribution, independence, costs and withdrawal terms.",
+      "action": "Draft a bounded memorandum for independent review.",
+      "metric": "Signed agreements verified externally and first deliverables.",
+      "risk": "Captured civic partners or vague commitments.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "governance_04",
+      "domain": "governance",
+      "title": "Local node charter",
+      "overview": "Define decision rights, accessible participation and data exit.",
+      "action": "Produce an editable charter and data interface for a voluntary node.",
+      "metric": "Validated governance and tested data portability.",
+      "risk": "Centralized control disguised as decentralization.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "science_01",
+      "domain": "science",
+      "title": "Field science starter",
+      "overview": "Define question, units, instruments, calibration and sampling in advance.",
+      "action": "Generate a repeatable protocol and data dictionary.",
+      "metric": "Replicable measurements with uncertainty and method.",
+      "risk": "False precision, unit mismatch or fabricated observations.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "science_02",
+      "domain": "science",
+      "title": "Falsifier registry",
+      "overview": "Convert narrative assertions into testable claims and possible counterevidence.",
+      "action": "Record alternative hypotheses, competing mechanisms and stopping rules.",
+      "metric": "Resolved uncertainties and revisions with traceable sources.",
+      "risk": "Confirmation bias or poorly defined falsifiers.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "science_03",
+      "domain": "science",
+      "title": "Reproducible dataset packet",
+      "overview": "Capture license, provenance, variables, quality limits and version.",
+      "action": "Publish a privacy-screened data dictionary and validation plan.",
+      "metric": "Independent reproducibility checks.",
+      "risk": "Private data release or unverifiable source claims.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "science_04",
+      "domain": "science",
+      "title": "Evaluation after pilot",
+      "overview": "Predefine outcome, comparison, confounders and analysis limits.",
+      "action": "Record all null, adverse and positive findings.",
+      "metric": "Measured changes with appropriately qualified causal language.",
+      "risk": "Before/after comparison mistaken for causation.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "digital_01",
+      "domain": "digital",
+      "title": "Sovereign module assembly",
+      "overview": "Specify sections, fields, schema and local persistence contracts.",
+      "action": "Compile an accessible, portable standalone module and test every control.",
+      "metric": "Browser tests, valid exports and clear capability limits.",
+      "risk": "Inactive controls or insecure imported HTML.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "digital_02",
+      "domain": "digital",
+      "title": "Offline knowledge node",
+      "overview": "Embed essential knowledge and explicitly identify uncached live services.",
+      "action": "Package an independent reading and note-taking workflow.",
+      "metric": "Successful reload without networking in tested environment.",
+      "risk": "Claiming unvisited external data works offline.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "digital_03",
+      "domain": "digital",
+      "title": "Standards-aware exchange",
+      "overview": "Version a minimal common JSON envelope and preserve unknown fields.",
+      "action": "Build preview, validation, conflict rules and deliberate import.",
+      "metric": "Successful round-trip and reconciliation.",
+      "risk": "Destructive overwrites or incompatible schemas.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "digital_04",
+      "domain": "digital",
+      "title": "Accessible technology atlas",
+      "overview": "Map technologies to actual user needs, fallbacks and acceptance checks.",
+      "action": "Select bounded browser features for each implementation.",
+      "metric": "Keyboard, mobile and failure-path test results.",
+      "risk": "Implementing novelty with no user benefit.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "media_01",
+      "domain": "media",
+      "title": "Narrative evidence bridge",
+      "overview": "Separate story motifs from hypotheses and verifiable evidence.",
+      "action": "Generate paired story and evidence cards with clear labels.",
+      "metric": "Reader comprehension and correct classification.",
+      "risk": "Implied proof from symbolism or coincidences.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "media_02",
+      "domain": "media",
+      "title": "Local restoration story kit",
+      "overview": "Ask affected communities to shape purpose, portrayal and approval.",
+      "action": "Create an opt-in production plan and editorial checklist.",
+      "metric": "Recorded consent and accurately documented outcomes.",
+      "risk": "Inventing testimonials or exposing vulnerable contributors.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "media_03",
+      "domain": "media",
+      "title": "Civic literacy media lab",
+      "overview": "Present documented positions and interpretations with context.",
+      "action": "Develop a factual, accessible explainer with source checking.",
+      "metric": "Corrections and comprehension with neutral presentation.",
+      "risk": "One-sided persuasion disguised as education.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "media_04",
+      "domain": "media",
+      "title": "Open knowledge publishing",
+      "overview": "Document sources, attribution, license and source limitations.",
+      "action": "Produce an accessible static publication with revision log.",
+      "metric": "Valid license compatibility and tested links.",
+      "risk": "Copyright violations or invented endorsements.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "children_01",
+      "domain": "children",
+      "title": "Lemonade learning studio",
+      "overview": "Use illustrated costs, pricing, math and voluntary roles.",
+      "action": "Generate a child-friendly stand simulator with adult safety checks.",
+      "metric": "Skills demonstrated and real money tracked separately.",
+      "risk": "Suggesting earnings are guaranteed or ignoring local requirements.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "children_02",
+      "domain": "children",
+      "title": "Sandwich food-safety studio",
+      "overview": "Teach inventory, margins and cold-chain verification with adult involvement.",
+      "action": "Create a learning tool whose simulated sale log is not a payment processor.",
+      "metric": "Correct safety questions and arithmetic performance.",
+      "risk": "Confusing checklist with real food safety clearance.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "children_03",
+      "domain": "children",
+      "title": "Family emergency learning",
+      "overview": "Separate preparedness education from emergency-response authority.",
+      "action": "Create a printable, verified-contact household planning kit.",
+      "metric": "Updated contacts and reviewed supplies.",
+      "risk": "False emergency guarantees or private contact publication.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    },
+    {
+      "id": "children_04",
+      "domain": "children",
+      "title": "Pet-safe household guide",
+      "overview": "Distinguish species, dose uncertainty and emergency referral needs.",
+      "action": "Build an evidence-labelled reference with veterinary sources.",
+      "metric": "Correct referrals and updated source dates.",
+      "risk": "Risky treatments or unsupported toxicity claims.",
+      "readiness": [
+        "Document the local baseline",
+        "Identify rights-holders and obtain appropriate consent",
+        "Confirm expert, legal and safety boundaries",
+        "Define comparison and meaningful outcome",
+        "Set rollback and independent review"
+      ]
+    }
+  ],
+  "technology": [
+    {
+      "id": "labs/semantic-html.html",
+      "title": "Semantic HTML & document architecture",
+      "category": "Topic labs",
+      "summary": "HTML landmarks, structured documents, headings, meaningful text",
+      "tags": "Semantics, landmarks, headings, native elements, structured documents, MathML, SVG"
+    },
+    {
+      "id": "labs/html-attributes.html",
+      "title": "HTML attributes & smart interfaces",
+      "category": "Topic labs",
+      "summary": "Native attributes, validation, language, metadata, and keyboard behavior",
+      "tags": "data attributes, dir, lang, inert, tabindex, autocomplete, ARIA"
+    },
+    {
+      "id": "labs/native-interaction.html",
+      "title": "Native interactive HTML",
+      "category": "Topic labs",
+      "summary": "Disclosures, dialogs, popovers and menu actions",
+      "tags": "details, summary, dialog, popover, native select, focus"
+    },
+    {
+      "id": "labs/advanced-forms.html",
+      "title": "Advanced forms & data entry",
+      "category": "Topic labs",
+      "summary": "Accessible input validation and typed submissions",
+      "tags": "input, fieldset, FormData, validity, constraints, form UX"
+    },
+    {
+      "id": "labs/css-layout.html",
+      "title": "Responsive CSS layout systems",
+      "category": "Topic labs",
+      "summary": "Grid, Flexbox, container queries and fluid sizing",
+      "tags": "Grid, flex, clamp, container queries, responsive composition"
+    },
+    {
+      "id": "labs/visual-styling.html",
+      "title": "Advanced visual styling",
+      "category": "Topic labs",
+      "summary": "Design tokens, color spaces and typography",
+      "tags": "custom properties, OKLCH, gradients, contrast, themes"
+    },
+    {
+      "id": "labs/motion.html",
+      "title": "Animation & cinematic interfaces",
+      "category": "Topic labs",
+      "summary": "Motion preferences and interruptible animation",
+      "tags": "Web Animations, CSS keyframes, reduced motion, transitions"
+    },
+    {
+      "id": "labs/javascript-architecture.html",
+      "title": "JavaScript application architecture",
+      "category": "Topic labs",
+      "summary": "Event-driven state and modular behavior",
+      "tags": "modules, state machines, events, DOM, structured clone"
+    },
+    {
+      "id": "labs/offline-first.html",
+      "title": "Offline-first functionality",
+      "category": "Topic labs",
+      "summary": "Resilient offline drafts and connectivity transitions",
+      "tags": "offline, local drafts, network events, durable state"
+    },
+    {
+      "id": "labs/pwa.html",
+      "title": "Progressive Web Apps",
+      "category": "Topic labs",
+      "summary": "Manifest and service-worker diagnostics",
+      "tags": "manifest, service workers, installability, secure context"
+    },
+    {
+      "id": "labs/storage.html",
+      "title": "Local data storage",
+      "category": "Topic labs",
+      "summary": "Transactional IndexedDB and storage durability",
+      "tags": "IndexedDB, transactions, quota, persistence, recovery"
+    },
+    {
+      "id": "labs/file-portability.html",
+      "title": "File import/export",
+      "category": "Topic labs",
+      "summary": "Structured import, download, preview and validation",
+      "tags": "JSON, Blob, File, import, export, schema validation"
+    },
+    {
+      "id": "labs/integrity.html",
+      "title": "Integrity & provenance",
+      "category": "Topic labs",
+      "summary": "SHA-256 verification and transparent provenance",
+      "tags": "Web Crypto, digests, integrity, timestamps, provenance"
+    },
+    {
+      "id": "labs/search.html",
+      "title": "Advanced search engines",
+      "category": "Topic labs",
+      "summary": "Search, filtering and ranked local results",
+      "tags": "full text, fuzzy ranking, filters, offline search"
+    },
+    {
+      "id": "labs/knowledge.html",
+      "title": "Knowledge management",
+      "category": "Topic labs",
+      "summary": "Linked records, backlinks, source categories",
+      "tags": "annotations, backlinks, structured metadata, facts vs hypotheses"
+    },
+    {
+      "id": "labs/graph-navigation.html",
+      "title": "Visual knowledge navigation",
+      "category": "Topic labs",
+      "summary": "Accessible interactive SVG graph with text equivalent",
+      "tags": "SVG, network graphs, keyboard navigation, alternative lists"
+    },
+    {
+      "id": "labs/images.html",
+      "title": "Image processing",
+      "category": "Topic labs",
+      "summary": "Local preview and canvas transforms",
+      "tags": "File, Blob, Canvas, image decode, exports"
+    },
+    {
+      "id": "labs/audio-video.html",
+      "title": "Audio & video production",
+      "category": "Topic labs",
+      "summary": "Web Audio synthesizer and media capability checks",
+      "tags": "Web Audio, media elements, audiovisual access"
+    },
+    {
+      "id": "labs/visualization.html",
+      "title": "Analytical visualization",
+      "category": "Topic labs",
+      "summary": "Interactive chart with accessible underlying data",
+      "tags": "Canvas, charts, data tables, units, uncertainty"
+    },
+    {
+      "id": "labs/gpu.html",
+      "title": "GPU & graphics",
+      "category": "Topic labs",
+      "summary": "Canvas particle field with GPU feature detection",
+      "tags": "Canvas, WebGL, WebGPU, animation, fallback"
+    },
+    {
+      "id": "labs/spatial.html",
+      "title": "Spatial interfaces",
+      "category": "Topic labs",
+      "summary": "CSS 3D model and WebXR capability inspection",
+      "tags": "CSS transforms, WebXR, device fallback"
+    },
+    {
+      "id": "labs/local-ai.html",
+      "title": "Local AI & browser AI",
+      "category": "Topic labs",
+      "summary": "Honest model availability and deterministic fallback",
+      "tags": "Prompt API checks, GPU, CPU fallback, local inference"
+    },
+    {
+      "id": "labs/agents.html",
+      "title": "AI agent architecture",
+      "category": "Topic labs",
+      "summary": "Permission-gated deterministic workflow simulator",
+      "tags": "state machines, explicit approvals, execution logs"
+    },
+    {
+      "id": "labs/rag.html",
+      "title": "Retrieval-augmented generation",
+      "category": "Topic labs",
+      "summary": "Citation-first lexical retrieval demo (no model claims)",
+      "tags": "document retrieval, excerpts, provenance, unsupported answers"
+    },
+    {
+      "id": "labs/ai-maintenance.html",
+      "title": "AI-assisted maintenance",
+      "category": "Topic labs",
+      "summary": "HTML quality audit and suggested fixes",
+      "tags": "static analysis, maintainability, tests, accessibility"
+    },
+    {
+      "id": "labs/collaboration.html",
+      "title": "Real-time collaboration",
+      "category": "Topic labs",
+      "summary": "Same-origin tab synchronization with BroadcastChannel",
+      "tags": "BroadcastChannel, CRDT concepts, multi-tab messages"
+    },
+    {
+      "id": "labs/decentralization.html",
+      "title": "Decentralized architectures",
+      "category": "Topic labs",
+      "summary": "Portable peer-exchange packages",
+      "tags": "local-first, content addressing, exchange, provenance"
+    },
+    {
+      "id": "labs/communication.html",
+      "title": "Social interaction",
+      "category": "Topic labs",
+      "summary": "Locally persisted moderated discussion simulation",
+      "tags": "messages, safe rendering, drafts, moderation principles"
+    },
+    {
+      "id": "labs/geospatial.html",
+      "title": "Geospatial GIS",
+      "category": "Topic labs",
+      "summary": "Coordinate mapping and portable GeoJSON",
+      "tags": "lat lon, GeoJSON, projections, spatial visualization"
+    },
+    {
+      "id": "labs/sensors.html",
+      "title": "Device sensors & permissions",
+      "category": "Topic labs",
+      "summary": "Explicit capability inspection without silent tracking",
+      "tags": "geolocation, device permissions, consent, fallback"
+    },
+    {
+      "id": "labs/field-science.html",
+      "title": "Environmental monitoring",
+      "category": "Topic labs",
+      "summary": "Measured time-series, calibration and uncertainty",
+      "tags": "environmental measurements, units, quality flags"
+    },
+    {
+      "id": "labs/security.html",
+      "title": "Web security",
+      "category": "Topic labs",
+      "summary": "Safe rendering and browser security inspection",
+      "tags": "textContent, CSP, Trusted Types, origin, permissions"
+    },
+    {
+      "id": "labs/privacy.html",
+      "title": "Privacy engineering",
+      "category": "Topic labs",
+      "summary": "Local permissions ledger and portable privacy choices",
+      "tags": "data minimization, consent, retention, local processing"
+    },
+    {
+      "id": "labs/cryptography.html",
+      "title": "Cryptography & authentication",
+      "category": "Topic labs",
+      "summary": "SHA-256 digest and random generation",
+      "tags": "Web Crypto, SHA256, secure randomness, WebAuthn diagnostics"
+    },
+    {
+      "id": "labs/accessibility.html",
+      "title": "Accessibility & inclusive design",
+      "category": "Topic labs",
+      "summary": "Keyboard, visual preferences and announced status",
+      "tags": "WCAG, focus, contrast, motion, accessibility checks"
+    },
+    {
+      "id": "labs/performance.html",
+      "title": "Web performance",
+      "category": "Topic labs",
+      "summary": "Real performance measurement and workload tester",
+      "tags": "performance.now, timings, budget, async workloads"
+    },
+    {
+      "id": "labs/reliability.html",
+      "title": "Reliability & fault tolerance",
+      "category": "Topic labs",
+      "summary": "Retries, backoff, cancellation and simulated failures",
+      "tags": "timeouts, retry, recovery, cancellation, resilience"
+    },
+    {
+      "id": "labs/seo.html",
+      "title": "Search discovery & metadata",
+      "category": "Topic labs",
+      "summary": "Audit machine-readable metadata",
+      "tags": "title, description, canonical, structured data, robots"
+    },
+    {
+      "id": "labs/i18n.html",
+      "title": "Internationalization & localization",
+      "category": "Topic labs",
+      "summary": "Intl formatting, language and direction",
+      "tags": "Intl, locale, dates, numbers, currencies, RTL"
+    },
+    {
+      "id": "labs/publishing.html",
+      "title": "Print & document publishing",
+      "category": "Topic labs",
+      "summary": "Printable field guide and print preview",
+      "tags": "@media print, semantic publishing, citation formatting"
+    },
+    {
+      "id": "labs/hosting.html",
+      "title": "Hosting & deployment",
+      "category": "Topic labs",
+      "summary": "Deployment diagnostics and static/server boundaries",
+      "tags": "secure contexts, host, manifest, headers, offline deployment"
+    },
+    {
+      "id": "integrations/offline-archive.html",
+      "title": "Offline knowledge archive",
+      "category": "Integration labs",
+      "summary": "Collect evidence-backed notes with tags and source URLs",
+      "tags": "knowledge, Title, Source URL, Evidence category, Summary"
+    },
+    {
+      "id": "integrations/food-garden.html",
+      "title": "Edible garden planner",
+      "category": "Integration labs",
+      "summary": "Plan edible planting beds and quantities",
+      "tags": "product, Crop, Area (m²), Estimated yield (kg/m²), Planting date"
+    },
+    {
+      "id": "integrations/learning-quests.html",
+      "title": "Learning quest builder",
+      "category": "Integration labs",
+      "summary": "Create learning activities with practical completion evidence",
+      "tags": "effort, Quest, Minutes, Difficulty, Proof of learning"
+    },
+    {
+      "id": "integrations/field-survey.html",
+      "title": "Offline field survey",
+      "category": "Integration labs",
+      "summary": "Log observations with method and sampling context",
+      "tags": "measure, Site label (not private address), Sample ID, Reading, Unit, Method / calibration"
+    },
+    {
+      "id": "integrations/evidence-ledger.html",
+      "title": "Evidence provenance ledger",
+      "category": "Integration labs",
+      "summary": "Separate assertions, sources and verification status",
+      "tags": "evidence, Assertion, Source / identifier, Review status, Method / limits"
+    },
+    {
+      "id": "integrations/household-resilience.html",
+      "title": "Household resilience checklist",
+      "category": "Integration labs",
+      "summary": "Plan essentials without making safety guarantees",
+      "tags": "inventory, Preparedness item, Quantity, Priority, Storage location"
+    },
+    {
+      "id": "integrations/community-decisions.html",
+      "title": "Community decision register",
+      "category": "Integration labs",
+      "summary": "Document options, consent and procedural outcomes",
+      "tags": "governance, Proposal, Affected stakeholders, Stage, Conditions / notes"
+    },
+    {
+      "id": "integrations/map-notebook.html",
+      "title": "Geographic observation notebook",
+      "category": "Integration labs",
+      "summary": "Record field locations as labeled coordinates",
+      "tags": "map, Place label, Latitude, Longitude, Observation"
+    },
+    {
+      "id": "integrations/story-studio.html",
+      "title": "Interactive story studio",
+      "category": "Integration labs",
+      "summary": "Track characters, motives and evolving symbols",
+      "tags": "story, Character, What they want, Consequence, Recurring symbol"
+    },
+    {
+      "id": "integrations/audio-journal.html",
+      "title": "Accessible audio journal",
+      "category": "Integration labs",
+      "summary": "Organize audio session records and transcripts",
+      "tags": "effort, Session title, Duration (minutes), Transcript / notes, Sharing"
+    },
+    {
+      "id": "integrations/dataset-explorer.html",
+      "title": "Portable dataset explorer",
+      "category": "Integration labs",
+      "summary": "Store labeled measurements and compare records",
+      "tags": "measure, Data point, Value, Unit, Uncertainty ±"
+    },
+    {
+      "id": "integrations/accessibility-audit.html",
+      "title": "Accessibility audit board",
+      "category": "Integration labs",
+      "summary": "Record test results and necessary remedies",
+      "tags": "audit, Component, Criterion, Result, Remediation"
+    },
+    {
+      "id": "integrations/privacy-workbench.html",
+      "title": "Privacy impact workbench",
+      "category": "Integration labs",
+      "summary": "Document collection purposes and reduction options",
+      "tags": "privacy, Data collected, Purpose, Necessity, Retention rule"
+    },
+    {
+      "id": "integrations/exchange-hub.html",
+      "title": "Data exchange hub",
+      "category": "Integration labs",
+      "summary": "Create traceable dataset exchange packages",
+      "tags": "exchange, Dataset, Schema version, Reuse license, Source and rights"
+    },
+    {
+      "id": "integrations/collaboration-studio.html",
+      "title": "Collaboration planning studio",
+      "category": "Integration labs",
+      "summary": "Track participants, tasks and consent-based assignments",
+      "tags": "workflow, Shared task, Owner alias, State, Handoff details"
+    },
+    {
+      "id": "integrations/restoration-monitor.html",
+      "title": "Restoration monitoring dashboard",
+      "category": "Integration labs",
+      "summary": "Track baselines and repeat observations",
+      "tags": "delta, Plot / site, Baseline, Latest measurement, Measured indicator"
+    },
+    {
+      "id": "integrations/science-workbench.html",
+      "title": "Scientific calculation notebook",
+      "category": "Integration labs",
+      "summary": "Record quantities and explicit assumptions",
+      "tags": "product, Experiment, Input value, Conversion / multiplier, Assumptions"
+    },
+    {
+      "id": "integrations/ai-evaluation.html",
+      "title": "AI evaluation notebook",
+      "category": "Integration labs",
+      "summary": "Record reproducible tests and human findings",
+      "tags": "audit, Test case, Expected behavior, Observed behavior, Outcome"
+    },
+    {
+      "id": "integrations/deployment-audit.html",
+      "title": "Deployment readiness board",
+      "category": "Integration labs",
+      "summary": "Track site release requirements and evidence",
+      "tags": "audit, Release check, Area, State, Verification method"
+    },
+    {
+      "id": "integrations/emergency-kit.html",
+      "title": "Emergency kit inventory",
+      "category": "Integration labs",
+      "summary": "Maintain a portable inventory without implying professional advice",
+      "tags": "inventory, Supply, Quantity, Expiry date, Storage and checks"
+    },
+    {
+      "id": "integrations/careers-map.html",
+      "title": "Regenerative career map",
+      "category": "Integration labs",
+      "summary": "Organize occupations, training and transferable capabilities",
+      "tags": "effort, Occupation, Transferable skill, Training hours (estimate), Credential or source"
+    },
+    {
+      "id": "integrations/publishing-desk.html",
+      "title": "Open publication desk",
+      "category": "Integration labs",
+      "summary": "Track article source, licensing and review readiness",
+      "tags": "publishing, Publication title, Author / attribution, License / permissions, Review state"
+    }
+  ],
+  "source": {
+    "name": "Next-Generation HTML Atlas v2",
+    "date": "2026-09-20",
+    "count": 63,
+    "note": "Catalog metadata and design ideas adapted from user-supplied ZIP; 63 specialist/lab entries are descriptive references, not bundled implementations. Original ZIP has 64 pages including its index."
+  }
+}

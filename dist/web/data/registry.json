@@ -1,0 +1,674 @@
+{
+  "format": "empowerment_registry/1",
+  "registry_version": "2.0.0",
+  "policy": "Declarative, non-executable module manifests only. Imported packs require explicit review.",
+  "modules": [
+    {
+      "id": "module_food",
+      "title": "Food access and edible infrastructure",
+      "version": "1.0.0",
+      "domain": "food",
+      "description": "Protect access and nutrition; measure real distribution, not just harvest.",
+      "method_ids": [
+        "food_01",
+        "food_02",
+        "food_03",
+        "food_04",
+        "food_05"
+      ],
+      "requirements": [
+        "Baseline and credible alternative",
+        "Rights-holder consultation and consent",
+        "Qualified safety review where relevant",
+        "Outcome measurement and stop rule"
+      ],
+      "roles": [
+        "Households",
+        "food cooperatives",
+        "municipal operators"
+      ],
+      "outputs": [
+        "Local supply map",
+        "food safety review",
+        "accessibility plan",
+        "pilot ledger"
+      ],
+      "dependencies": [],
+      "review": "Human review required; project descriptions do not establish impact or authorization.",
+      "provenance": "Curated from Foster + Navi Empowerment Foundry methods; not independently certified.",
+      "built_in": true
+    },
+    {
+      "id": "module_water",
+      "title": "Water resilience",
+      "version": "1.0.0",
+      "domain": "water",
+      "description": "Separate safe-water claims from simplified flow calculations.",
+      "method_ids": [
+        "water_01",
+        "water_02",
+        "water_03",
+        "water_04"
+      ],
+      "requirements": [
+        "Baseline and credible alternative",
+        "Rights-holder consultation and consent",
+        "Qualified safety review where relevant",
+        "Outcome measurement and stop rule"
+      ],
+      "roles": [
+        "Households",
+        "water stewards",
+        "qualified operators"
+      ],
+      "outputs": [
+        "Water balance",
+        "qualified safety review",
+        "monitoring plan",
+        "rollback trigger"
+      ],
+      "dependencies": [],
+      "review": "Human review required; project descriptions do not establish impact or authorization.",
+      "provenance": "Curated from Foster + Navi Empowerment Foundry methods; not independently certified.",
+      "built_in": true
+    },
+    {
+      "id": "module_restoration",
+      "title": "Restoration and living infrastructure",
+      "version": "1.0.0",
+      "domain": "restoration",
+      "description": "Protect ecological rights and avoid planting-count vanity metrics.",
+      "method_ids": [
+        "restoration_01",
+        "restoration_02",
+        "restoration_03",
+        "restoration_04"
+      ],
+      "requirements": [
+        "Baseline and credible alternative",
+        "Rights-holder consultation and consent",
+        "Qualified safety review where relevant",
+        "Outcome measurement and stop rule"
+      ],
+      "roles": [
+        "Land stewards",
+        "Indigenous rights-holders",
+        "ecological operators"
+      ],
+      "outputs": [
+        "Site assessment",
+        "biodiversity baseline",
+        "maintenance map",
+        "adaptive monitoring"
+      ],
+      "dependencies": [],
+      "review": "Human review required; project descriptions do not establish impact or authorization.",
+      "provenance": "Curated from Foster + Navi Empowerment Foundry methods; not independently certified.",
+      "built_in": true
+    },
+    {
+      "id": "module_housing",
+      "title": "Housing and mutual care",
+      "version": "1.0.0",
+      "domain": "housing",
+      "description": "Address safety, rights, access and actual occupancy rather than concept counts.",
+      "method_ids": [
+        "housing_01",
+        "housing_02",
+        "housing_03",
+        "housing_04"
+      ],
+      "requirements": [
+        "Baseline and credible alternative",
+        "Rights-holder consultation and consent",
+        "Qualified safety review where relevant",
+        "Outcome measurement and stop rule"
+      ],
+      "roles": [
+        "Residents",
+        "housing organizations",
+        "service providers"
+      ],
+      "outputs": [
+        "Consent-based needs analysis",
+        "service map",
+        "safety plan",
+        "evaluation design"
+      ],
+      "dependencies": [],
+      "review": "Human review required; project descriptions do not establish impact or authorization.",
+      "provenance": "Curated from Foster + Navi Empowerment Foundry methods; not independently certified.",
+      "built_in": true
+    },
+    {
+      "id": "module_education",
+      "title": "Learner empowerment",
+      "version": "1.0.0",
+      "domain": "education",
+      "description": "Build capability and critical thinking without gamified coercion.",
+      "method_ids": [
+        "education_01",
+        "education_02",
+        "education_03",
+        "education_04"
+      ],
+      "requirements": [
+        "Baseline and credible alternative",
+        "Rights-holder consultation and consent",
+        "Qualified safety review where relevant",
+        "Outcome measurement and stop rule"
+      ],
+      "roles": [
+        "Learners",
+        "teachers",
+        "education organizations"
+      ],
+      "outputs": [
+        "Learning objectives",
+        "accessible activities",
+        "consent",
+        "feedback and assessment"
+      ],
+      "dependencies": [],
+      "review": "Human review required; project descriptions do not establish impact or authorization.",
+      "provenance": "Curated from Foster + Navi Empowerment Foundry methods; not independently certified.",
+      "built_in": true
+    },
+    {
+      "id": "module_careers",
+      "title": "Capability-to-career bridge",
+      "version": "1.0.0",
+      "domain": "careers",
+      "description": "Expose transferable skills and training gaps without promising employment.",
+      "method_ids": [
+        "careers_01",
+        "careers_02",
+        "careers_03",
+        "careers_04"
+      ],
+      "requirements": [
+        "Baseline and credible alternative",
+        "Rights-holder consultation and consent",
+        "Qualified safety review where relevant",
+        "Outcome measurement and stop rule"
+      ],
+      "roles": [
+        "Learners",
+        "employers",
+        "training providers"
+      ],
+      "outputs": [
+        "Task taxonomy",
+        "transferable skills",
+        "credential checks",
+        "paid pathway hypothesis"
+      ],
+      "dependencies": [],
+      "review": "Human review required; project descriptions do not establish impact or authorization.",
+      "provenance": "Curated from Foster + Navi Empowerment Foundry methods; not independently certified.",
+      "built_in": true
+    },
+    {
+      "id": "module_civic",
+      "title": "Civic information commons",
+      "version": "1.0.0",
+      "domain": "civic",
+      "description": "Inform choices and preserve agency; no advocacy or ranked political choices.",
+      "method_ids": [
+        "civic_01",
+        "civic_02",
+        "civic_03",
+        "civic_04"
+      ],
+      "requirements": [
+        "Baseline and credible alternative",
+        "Rights-holder consultation and consent",
+        "Qualified safety review where relevant",
+        "Outcome measurement and stop rule"
+      ],
+      "roles": [
+        "Residents",
+        "institutions",
+        "affected rights-holders"
+      ],
+      "outputs": [
+        "Source ledger",
+        "procedural map",
+        "accessible neutral brief",
+        "feedback and corrections"
+      ],
+      "dependencies": [],
+      "review": "Human review required; project descriptions do not establish impact or authorization.",
+      "provenance": "Curated from Foster + Navi Empowerment Foundry methods; not independently certified.",
+      "built_in": true
+    },
+    {
+      "id": "module_peace",
+      "title": "Conflict prevention and human security",
+      "version": "1.0.0",
+      "domain": "peace",
+      "description": "Nonviolent prevention, rights and consent with independently checked evidence.",
+      "method_ids": [
+        "peace_01",
+        "peace_02",
+        "peace_03",
+        "peace_04"
+      ],
+      "requirements": [
+        "Baseline and credible alternative",
+        "Rights-holder consultation and consent",
+        "Qualified safety review where relevant",
+        "Outcome measurement and stop rule"
+      ],
+      "roles": [
+        "Local mediators",
+        "service providers",
+        "rights-holders"
+      ],
+      "outputs": [
+        "Do-no-harm review",
+        "escalation pathways",
+        "rights protections",
+        "independent oversight"
+      ],
+      "dependencies": [],
+      "review": "Human review required; project descriptions do not establish impact or authorization.",
+      "provenance": "Curated from Foster + Navi Empowerment Foundry methods; not independently certified.",
+      "built_in": true
+    },
+    {
+      "id": "module_health",
+      "title": "Care navigation and referral",
+      "version": "1.0.0",
+      "domain": "health",
+      "description": "Support access to verified services; never diagnose or replace clinicians.",
+      "method_ids": [
+        "health_01",
+        "health_02",
+        "health_03"
+      ],
+      "requirements": [
+        "Baseline and credible alternative",
+        "Rights-holder consultation and consent",
+        "Qualified safety review where relevant",
+        "Outcome measurement and stop rule"
+      ],
+      "roles": [
+        "Residents",
+        "clinicians",
+        "qualified service providers"
+      ],
+      "outputs": [
+        "Verified contact directory",
+        "referral boundaries",
+        "data minimization",
+        "accessibility"
+      ],
+      "dependencies": [],
+      "review": "Human review required; project descriptions do not establish impact or authorization.",
+      "provenance": "Curated from Foster + Navi Empowerment Foundry methods; not independently certified.",
+      "built_in": true
+    },
+    {
+      "id": "module_privacy",
+      "title": "Consent and provenance workbench",
+      "version": "1.0.0",
+      "domain": "privacy",
+      "description": "Keep authorship, content integrity and real-world validation separate.",
+      "method_ids": [
+        "privacy_01",
+        "privacy_02",
+        "privacy_03",
+        "privacy_04"
+      ],
+      "requirements": [
+        "Baseline and credible alternative",
+        "Rights-holder consultation and consent",
+        "Qualified safety review where relevant",
+        "Outcome measurement and stop rule"
+      ],
+      "roles": [
+        "Data stewards",
+        "individuals",
+        "organizations"
+      ],
+      "outputs": [
+        "Data map",
+        "consent log",
+        "provenance limitations",
+        "audit and deletion process"
+      ],
+      "dependencies": [],
+      "review": "Human review required; project descriptions do not establish impact or authorization.",
+      "provenance": "Curated from Foster + Navi Empowerment Foundry methods; not independently certified.",
+      "built_in": true
+    },
+    {
+      "id": "module_governance",
+      "title": "Cooperative governance kit",
+      "version": "1.0.0",
+      "domain": "governance",
+      "description": "Respect actual authority, legal differences and stakeholder independence.",
+      "method_ids": [
+        "governance_01",
+        "governance_02",
+        "governance_03",
+        "governance_04"
+      ],
+      "requirements": [
+        "Baseline and credible alternative",
+        "Rights-holder consultation and consent",
+        "Qualified safety review where relevant",
+        "Outcome measurement and stop rule"
+      ],
+      "roles": [
+        "Members",
+        "worker groups",
+        "board stewards"
+      ],
+      "outputs": [
+        "Decision rights",
+        "appeal mechanism",
+        "stewardship plan",
+        "independent exit"
+      ],
+      "dependencies": [],
+      "review": "Human review required; project descriptions do not establish impact or authorization.",
+      "provenance": "Curated from Foster + Navi Empowerment Foundry methods; not independently certified.",
+      "built_in": true
+    },
+    {
+      "id": "module_science",
+      "title": "Evidence and reproducibility lab",
+      "version": "1.0.0",
+      "domain": "science",
+      "description": "Make uncertainty and negative results visible rather than hiding them.",
+      "method_ids": [
+        "science_01",
+        "science_02",
+        "science_03",
+        "science_04"
+      ],
+      "requirements": [
+        "Baseline and credible alternative",
+        "Rights-holder consultation and consent",
+        "Qualified safety review where relevant",
+        "Outcome measurement and stop rule"
+      ],
+      "roles": [
+        "Researchers",
+        "practitioners",
+        "community observers"
+      ],
+      "outputs": [
+        "Hypothesis",
+        "protocol",
+        "comparable data",
+        "falsifier",
+        "negative results"
+      ],
+      "dependencies": [],
+      "review": "Human review required; project descriptions do not establish impact or authorization.",
+      "provenance": "Curated from Foster + Navi Empowerment Foundry methods; not independently certified.",
+      "built_in": true
+    },
+    {
+      "id": "module_digital",
+      "title": "Local-first digital public goods",
+      "version": "1.0.0",
+      "domain": "digital",
+      "description": "Offer interoperable tools without requiring accounts or hidden dependency.",
+      "method_ids": [
+        "digital_01",
+        "digital_02",
+        "digital_03",
+        "digital_04"
+      ],
+      "requirements": [
+        "Baseline and credible alternative",
+        "Rights-holder consultation and consent",
+        "Qualified safety review where relevant",
+        "Outcome measurement and stop rule"
+      ],
+      "roles": [
+        "Independent developers",
+        "community maintainers"
+      ],
+      "outputs": [
+        "Data schema",
+        "accessible prototype",
+        "offline test",
+        "export and migration"
+      ],
+      "dependencies": [],
+      "review": "Human review required; project descriptions do not establish impact or authorization.",
+      "provenance": "Curated from Foster + Navi Empowerment Foundry methods; not independently certified.",
+      "built_in": true
+    },
+    {
+      "id": "module_media",
+      "title": "Knowledge transfer and storytelling",
+      "version": "1.0.0",
+      "domain": "media",
+      "description": "Use narratives to expand curiosity while labelling fiction and evidence.",
+      "method_ids": [
+        "media_01",
+        "media_02",
+        "media_03",
+        "media_04"
+      ],
+      "requirements": [
+        "Baseline and credible alternative",
+        "Rights-holder consultation and consent",
+        "Qualified safety review where relevant",
+        "Outcome measurement and stop rule"
+      ],
+      "roles": [
+        "Educators",
+        "communicators",
+        "contributors"
+      ],
+      "outputs": [
+        "Source attributions",
+        "accessible narrative",
+        "publication consent",
+        "correction path"
+      ],
+      "dependencies": [],
+      "review": "Human review required; project descriptions do not establish impact or authorization.",
+      "provenance": "Curated from Foster + Navi Empowerment Foundry methods; not independently certified.",
+      "built_in": true
+    },
+    {
+      "id": "module_children",
+      "title": "Child-and-family agency",
+      "version": "1.0.0",
+      "domain": "children",
+      "description": "Design age-appropriate education with adult-supported safety boundaries.",
+      "method_ids": [
+        "children_01",
+        "children_02",
+        "children_03",
+        "children_04"
+      ],
+      "requirements": [
+        "Baseline and credible alternative",
+        "Rights-holder consultation and consent",
+        "Qualified safety review where relevant",
+        "Outcome measurement and stop rule"
+      ],
+      "roles": [
+        "Children",
+        "families",
+        "educators",
+        "safeguarding experts"
+      ],
+      "outputs": [
+        "Age-appropriate choice",
+        "adult-supported safety",
+        "inclusion",
+        "guardian privacy review"
+      ],
+      "dependencies": [],
+      "review": "Human review required; project descriptions do not establish impact or authorization.",
+      "provenance": "Curated from Foster + Navi Empowerment Foundry methods; not independently certified.",
+      "built_in": true
+    },
+    {
+      "id": "module_evidence_bridge",
+      "title": "Evidence-to-design bridge",
+      "version": "1.0.0",
+      "domain": "science",
+      "description": "Turn claims into explicit test plans with reproducible, consented records.",
+      "method_ids": [
+        "privacy_01",
+        "science_01",
+        "digital_01"
+      ],
+      "requirements": [
+        "Cross-domain dependency check",
+        "Independent authority and safety signoff",
+        "Evidence and adverse-outcome plan"
+      ],
+      "roles": [
+        "Local stewards",
+        "Affected participants",
+        "Qualified reviewers"
+      ],
+      "outputs": [
+        "Interoperability map",
+        "Combined method contract",
+        "Bounded pilot specification"
+      ],
+      "dependencies": [],
+      "review": "Composition is a design hypothesis, not evidence that the methods work together.",
+      "provenance": "Foster + Navi generative ecosystem synthesis.",
+      "built_in": true
+    },
+    {
+      "id": "module_resilience_bridge",
+      "title": "Household-to-community resilience",
+      "version": "1.0.0",
+      "domain": "food",
+      "description": "Combine resource access plans without presuming permissions or technical safety.",
+      "method_ids": [
+        "food_01",
+        "water_01",
+        "housing_01",
+        "children_01"
+      ],
+      "requirements": [
+        "Cross-domain dependency check",
+        "Independent authority and safety signoff",
+        "Evidence and adverse-outcome plan"
+      ],
+      "roles": [
+        "Local stewards",
+        "Affected participants",
+        "Qualified reviewers"
+      ],
+      "outputs": [
+        "Interoperability map",
+        "Combined method contract",
+        "Bounded pilot specification"
+      ],
+      "dependencies": [],
+      "review": "Composition is a design hypothesis, not evidence that the methods work together.",
+      "provenance": "Foster + Navi generative ecosystem synthesis.",
+      "built_in": true
+    },
+    {
+      "id": "module_learning_bridge",
+      "title": "Education-to-work capability bridge",
+      "version": "1.0.0",
+      "domain": "education",
+      "description": "Trace learner-selected skills to verified training and paid opportunities.",
+      "method_ids": [
+        "education_01",
+        "careers_01",
+        "children_01"
+      ],
+      "requirements": [
+        "Cross-domain dependency check",
+        "Independent authority and safety signoff",
+        "Evidence and adverse-outcome plan"
+      ],
+      "roles": [
+        "Local stewards",
+        "Affected participants",
+        "Qualified reviewers"
+      ],
+      "outputs": [
+        "Interoperability map",
+        "Combined method contract",
+        "Bounded pilot specification"
+      ],
+      "dependencies": [],
+      "review": "Composition is a design hypothesis, not evidence that the methods work together.",
+      "provenance": "Foster + Navi generative ecosystem synthesis.",
+      "built_in": true
+    },
+    {
+      "id": "module_stewardship_bridge",
+      "title": "Local governance and maintenance bridge",
+      "version": "1.0.0",
+      "domain": "governance",
+      "description": "Design stewardship, maintenance, independent handover and an exit mechanism.",
+      "method_ids": [
+        "governance_01",
+        "restoration_01",
+        "digital_01"
+      ],
+      "requirements": [
+        "Cross-domain dependency check",
+        "Independent authority and safety signoff",
+        "Evidence and adverse-outcome plan"
+      ],
+      "roles": [
+        "Local stewards",
+        "Affected participants",
+        "Qualified reviewers"
+      ],
+      "outputs": [
+        "Interoperability map",
+        "Combined method contract",
+        "Bounded pilot specification"
+      ],
+      "dependencies": [],
+      "review": "Composition is a design hypothesis, not evidence that the methods work together.",
+      "provenance": "Foster + Navi generative ecosystem synthesis.",
+      "built_in": true
+    },
+    {
+      "id": "module_knowledge_bridge",
+      "title": "Portable public knowledge bridge",
+      "version": "1.0.0",
+      "domain": "media",
+      "description": "Make methods explainable, reusable, reviewable and privacy-preserving.",
+      "method_ids": [
+        "media_01",
+        "science_01",
+        "privacy_01"
+      ],
+      "requirements": [
+        "Cross-domain dependency check",
+        "Independent authority and safety signoff",
+        "Evidence and adverse-outcome plan"
+      ],
+      "roles": [
+        "Local stewards",
+        "Affected participants",
+        "Qualified reviewers"
+      ],
+      "outputs": [
+        "Interoperability map",
+        "Combined method contract",
+        "Bounded pilot specification"
+      ],
+      "dependencies": [],
+      "review": "Composition is a design hypothesis, not evidence that the methods work together.",
+      "provenance": "Foster + Navi generative ecosystem synthesis.",
+      "built_in": true
+    }
+  ]
+}

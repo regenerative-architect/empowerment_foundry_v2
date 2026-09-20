@@ -1,0 +1,56 @@
+{
+  "format": "empowerment_module_pack/1",
+  "schema": 1,
+  "modules": [
+    {
+      "id": "module_local_learning",
+      "title": "Learner-led local knowledge circle",
+      "version": "1.0.0",
+      "domain": "education",
+      "description": "Example: a consent-based accessible learning circle with explicit evidence boundaries.",
+      "method_ids": [
+        "education_01",
+        "local_learning_01"
+      ],
+      "dependencies": [
+        "module_education"
+      ],
+      "requirements": [
+        "Document needs and the right to decline",
+        "Review accessible materials",
+        "Secure qualified adult supervision when applicable"
+      ],
+      "roles": [
+        "Voluntary learners",
+        "Qualified educators",
+        "Community stewards"
+      ],
+      "outputs": [
+        "Accessible session plan",
+        "Method evaluation log",
+        "Consent-based handover"
+      ],
+      "review": "This is an illustrative draft, not a confirmed educational intervention.",
+      "provenance": "Illustrative Foster + Navi source-pack example, not independent research."
+    }
+  ],
+  "methods": [
+    {
+      "id": "local_learning_01",
+      "domain": "education",
+      "title": "Local community learning circle",
+      "overview": "Use voluntary learner-selected questions and public reference materials.",
+      "action": "Create a two-hour accessible learning session and feedback process.",
+      "metric": "Count consented learning-session records and documented access barriers.",
+      "risk": "Avoid compulsory attendance, unsourced claims and collecting unnecessary details.",
+      "readiness": [
+        "Ask participants for voluntary input",
+        "Identify suitable qualified adult support",
+        "Verify licenses and accessibility",
+        "Document learning goals",
+        "Preserve opt-out and backup options"
+      ]
+    }
+  ],
+  "warning": "Example is fictional; inspect before import."
+}

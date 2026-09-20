@@ -1,0 +1,21 @@
+{
+  "algorithm": "SHA-256",
+  "hashes": {
+    "LICENSE": "32a8e06fa8ceb09ea4eba2f13f0d6cc8e23f67667a800b66ce5889f3fd88ce80",
+    "README.md": "e50caf122037a0a7817539da90e86e85a85bdca1cf469f36a70ed219d91ae7a4",
+    "assets/icon-192.png": "c4a34266c6f39b21f9818494dacb56c751d2f9469e76016511158272a2074dc2",
+    "assets/icon-512.png": "27bc279d63e0b9a895699b68d5e11801d40d151045fd4b01b36b129c1c830a3a",
+    "assets/icon.svg": "cbcde3abffe53dad499e28c7e9c66ea22063bc6adbc40f93d63648a77f5f8441",
+    "css/main.css": "d2cc5e4573392817f112c55944cf5f80c2d22b4ae31dbc1bea5fea17a5c0d57e",
+    "data/embedded.js": "95acbaf7e26dc0f1076db08efdf859b3d15584bcf6e91cb2eeedd74b7409a8b1",
+    "data/registry.js": "96f6c51822f28ddc80efea8137e0378d03da7fc81d8d8e093e0581bf99a73378",
+    "data/registry.json": "9e0301d23c4a639683279d7b5ac2101397177f0f41e353ecebcf5d1f3ca0fc52",
+    "index.html": "e47999f7a1ca733defa00da0768c7c2fe3142246e6b101377bd023b8e081e92c",
+    "js/core.js": "e3575c00340d2fa8d22a31ffc312b5be5afb14dbac8e7f6b404a589818305d8d",
+    "js/ecosystem.js": "a7d0bac46d4b7d27c4a3431eed2ab181cbc779f34ffc652cdc1b30f38dc8bbb5",
+    "js/innovation.js": "29ff07d4a08b78273fff060d7cef09afd319466e82ae02590ffd9de81c6f4fd7",
+    "manifest.webmanifest": "8d341736bcef3ea0ee1293ee06728f611e42f788e9752b0862210fb7b71f0d2d",
+    "sw.js": "8849d3a589f9cb651367e8ee1d0d4e5574fdad59988d04b380b068e2db84661d"
+  },
+  "limitation": "Byte equality only; not authorship, signing, precedence, impact or verification of source claims."
+}

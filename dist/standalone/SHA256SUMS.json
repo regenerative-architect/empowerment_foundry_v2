@@ -1,0 +1,8 @@
+{
+  "algorithm": "SHA-256",
+  "hashes": {
+    "LICENSE": "32a8e06fa8ceb09ea4eba2f13f0d6cc8e23f67667a800b66ce5889f3fd88ce80",
+    "index.html": "bbc6c43c6edc11a8e7b836669c4dcc130838b480b7a9ba2469c249cea5711bae"
+  },
+  "limitation": "Byte equality only; not authorship, signing, precedence, impact or verification of source claims."
+}
